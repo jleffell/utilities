@@ -1,0 +1,13 @@
+alias ls="ls -alG"
+alias ll="ls -Gal"
+alias lt="ls -Gtl"
+
+alias rm="rm -i"
+alias mv="mv -i"
+alias cp="cp -i"
+alias dirt="ls -axlrtF"
+
+alias emacs="/Applications/Emacs.app/Contents/MacOS/Emacs -nw"
+alias dafny="mono $HOME/dafny/Dafny.exe"
+alias matlab="open -a Matlab_R2017a.app"
+alias cv2="source ~/Projects/virtualEnv/cv/bin/activate.csh"
