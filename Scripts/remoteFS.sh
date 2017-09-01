@@ -56,9 +56,9 @@ fi
 #     usage
 # fi
 
-echo "src = ${s}"
-echo "dst = ${d}"
-echo "name = ${n}"
+# echo "src = ${s}"
+# echo "dst = ${d}"
+# echo "name = ${n}"
 
 if [ ${unmount} ]; then
     echo "We are unmounting the sshfs ${n} at ${d} from ${s}"
