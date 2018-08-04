@@ -20,7 +20,7 @@ function set_virtualenv () {
   if test -z "$VIRTUAL_ENV" ; then
       PYTHON_VIRTUALENV=
   else
-      PYTHON_VIRTUALENV="[`basename \"$VIRTUAL_ENV\"`] "
+      PYTHON_VIRTUALENV="(`basename \"$VIRTUAL_ENV\"`) "
   fi
 }
 
